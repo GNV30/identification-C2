@@ -1,0 +1,16 @@
+{
+  "threshold": 0.65,
+  "weights": {
+    "flow_count": 0.18,
+    "interval_regularity": 0.24,
+    "small_payload": 0.18,
+    "outbound_ratio": 0.14,
+    "short_duration": 0.12,
+    "low_port_diversity": 0.14
+  },
+  "feature_limits": {
+    "high_flow_count": 20,
+    "small_avg_bytes": 900,
+    "short_duration_ms": 2500
+  }
+}
